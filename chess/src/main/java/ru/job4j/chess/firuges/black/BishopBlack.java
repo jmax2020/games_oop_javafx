@@ -42,10 +42,7 @@ public class BishopBlack implements Figure {
         int y1 = source.getY();
         int x2 = dest.getX();
         int y2 = dest.getY();
-        if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
-            return true;
-        }
-        return false;
+        return (Math.abs(x2 - x1) == Math.abs(y2 - y1));
     }
 
     @Override
