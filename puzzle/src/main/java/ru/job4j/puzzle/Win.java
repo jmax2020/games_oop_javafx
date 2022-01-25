@@ -13,7 +13,7 @@ public class Win {
         return rsl;
     }
 
-    public static boolean vertical (int [][] mass, int column) {
+    public static boolean vertical(int[][] mass, int column) {
         boolean rsl = true;
         for (int i = 0; i < mass.length; i++) {
             if (mass[i][column] == 0) {
@@ -23,7 +23,6 @@ public class Win {
         }
         return rsl;
     }
-
 
     public static boolean check(int[][] board) {
         boolean rsl = false;
