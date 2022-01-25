@@ -20,7 +20,7 @@ import ru.job4j.chess.firuges.white.*;
 
 public final class Chess extends Application {
     private static final String JOB4J = "Шахматы на www.job4j.ru";
-    private static final int size = 8;
+    private final int size = 8;
     private final Logic logic = new Logic();
 
     private Rectangle buildRectangle(int x, int y, int size, boolean white) {

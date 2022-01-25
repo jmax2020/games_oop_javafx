@@ -29,8 +29,8 @@ public class BishopBlack implements Figure {
         int y2 = dest.getY();
         int size = Math.abs(x2 - x1);
         Cell[] mass = new Cell[size];
-        int deltaX = (x2 - x1)/Math.abs((x2 - x1));
-        int deltaY = (y2 - y1)/Math.abs(y2 - y1);
+        int deltaX = (x2 - x1) / Math.abs((x2 - x1));
+        int deltaY = (y2 - y1) / Math.abs(y2 - y1);
         for (int i = 0; i < size; i++) {
             mass[i] = Cell.findBy(x1 + deltaX * (i + 1), y1 + deltaY * (i + 1));
         }
