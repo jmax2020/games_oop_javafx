@@ -29,7 +29,6 @@ public final class Logic {
                     throw new OccupiedCellException();
                 }
             }
-            return true;
         }
         return true;
     }
